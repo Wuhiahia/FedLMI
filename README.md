@@ -44,23 +44,23 @@ conda activate <your_env_name>
 
 The table below presents the average test accuracy (%) comparison between our method and baseline personalized federated learning approaches under two Non-IID settings with a 100% client participation rate:
 
-| Setting | Practical Non-IID | | | | Pathological Non-IID | | |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Datasets** | **F-MNIST** | **CIFAR-10** | **CIFAR-100** | **TinyImgNet** | **F-MNIST** | **CIFAR-10** | **CIFAR-100** |
-| FedAvg | 85.74 | 59.47 | 31.55 | 18.85 | 79.37 | 56.49 | 26.29 |
-| FedProx | 85.70 | 59.59 | 31.77 | 19.04 | 77.31 | 56.27 | 26.44 |
-| Per-FedAvg | 95.80 | 85.05 | 34.49 | 21.65 | 99.34 | 87.41 | 53.71 |
-| pFedMe | 97.61 | 82.17 | 45.83 | 39.51 | 99.37 | 81.58 | 53.33 |
-| FedFomo | 97.20 | 88.29 | 44.49 | 25.80 | 99.41 | 90.64 | 63.39 |
-| FedBABU | 97.32 | 91.03 | 49.71 | 34.55 | 99.40 | 90.71 | 61.84 |
-| FedProto | 97.05 | 89.28 | 48.73 | 27.50 | 99.43 | 89.43 | 65.27 |
-| FedAMP | 97.29 | 88.94 | 46.92 | 28.58 | 99.46 | 88.51 | 62.87 |
-| FedRep | 97.62 | 90.53 | 49.72 | 36.53 | 99.55 | 90.53 | 66.03 |
-| FedALA | 97.78 | 90.84 | 55.90 | 39.85 | 99.58 | 91.23 | 66.20 |
-| FedMCA | 97.83 | 91.76 | 59.32 | 40.10 | 99.61 | 91.79 | 72.33 |
-| **FedHDA (ours)** | **97.86** | **92.19** | **64.37** | **44.59** | **99.63** | **92.65** | **75.45** |
+| Setting | Practical Non-IID | | | Pathological Non-IID | | |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Datasets** | **F-MNIST** | **CIFAR-10** | **CIFAR-100** | **F-MNIST** | **CIFAR-10** | **CIFAR-100** |
+| FedAvg | 85.74 | 59.47 | 31.55 | 79.37 | 56.49 | 26.29 |
+| FedProx | 85.70 | 59.59 | 31.77 | 77.31 | 56.27 | 26.44 |
+| Per-FedAvg | 95.80 | 85.05 | 34.49 | 99.34 | 87.41 | 53.71 |
+| pFedMe | 97.61 | 82.17 | 45.83 | 99.37 | 81.58 | 53.33 |
+| FedFomo | 97.20 | 88.29 | 44.49 | 99.41 | 90.64 | 63.39 |
+| FedBABU | 97.32 | 91.03 | 49.71 | 99.40 | 90.71 | 61.84 |
+| FedProto | 97.05 | 89.28 | 48.73 | 99.43 | 89.43 | 65.27 |
+| FedAMP | 97.29 | 88.94 | 46.92 | 99.46 | 88.51 | 62.87 |
+| FedRep | 97.62 | 90.53 | 49.72 | 99.55 | 90.53 | 66.03 |
+| FedALA | 97.78 | 90.84 | 55.90 | 99.58 | 91.23 | 66.20 |
+| FedMCA | 97.83 | 91.76 | 59.32 | 99.61 | 91.79 | 72.33 |
+| **FedHDA (ours)** | **97.86** | **92.19** | **64.37** | **99.63** | **92.65** | **75.45** |
 
-*(Detailed training logs and convergence analysis reports for individual benchmarks can be found under the `other_experimental_results/` directory)*
+*(More experimental results can be found under the other_experimental_results/ directory and in the paper of this work)*
 
 ---
 
