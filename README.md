@@ -58,7 +58,7 @@ The table below presents the average test accuracy (%) comparison between our me
 | FedRep | 97.62 | 90.53 | 49.72 | 99.55 | 90.53 | 66.03 |
 | FedALA | 97.78 | 90.84 | 55.90 | 99.58 | 91.23 | 66.20 |
 | FedMCA | 97.83 | 91.76 | 59.32 | 99.61 | 91.79 | 72.33 |
-| **FedHDA (ours)** | **97.86** | **92.19** | **64.37** | **99.63** | **92.65** | **75.45** |
+| **FedLMI (ours)** | **97.86** | **92.19** | **64.37** | **99.63** | **92.65** | **75.45** |
 
 *(More experimental results can be found under the other_experimental_results/ directory and in the paper of this work)*
 
