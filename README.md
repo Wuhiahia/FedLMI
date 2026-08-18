@@ -42,7 +42,7 @@ conda activate <your_env_name>
 
 ## Some Experimental Results
 
-The table below presents the average test accuracy (%) comparison between our method and baseline personalized federated learning approaches under two Non-IID settings with a 100% client participation rate:
+The table below presents the average test accuracy (%) comparison between our method and baseline personalized federated learning approaches under two Non-IID settings with a 50% client participation rate:
 
 | Setting | Practical Non-IID | | | Pathological Non-IID | | |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
