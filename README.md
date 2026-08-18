@@ -70,5 +70,5 @@ To reproduce the experiments on the Fashion-MNIST dataset, run the following com
 
 ```bash
 cd FedLMI
-python main.py --dataset Fashion-MNIST --num_clients 20 --gpu 0
+python main.py -hn file_name -data Fashion-MNIST_20client_01dir -nb 10 -nc 20 -gr 100
 ```
