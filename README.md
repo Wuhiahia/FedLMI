@@ -60,6 +60,21 @@ The table below presents the average test accuracy (%) comparison between our me
 | FedMCA | 97.83 | 91.76 | 59.32 | 99.61 | 91.79 | 72.33 |
 | **FedLMI (ours)** | **97.86** | **92.19** | **64.37** | **99.63** | **92.65** | **75.45** |
 
+| Type | Method | F-MNIST (Pra) | F-MNIST (Pat) | CIFAR-10 (Pra) | CIFAR-10 (Pat) | CIFAR-100 (Pra) | CIFAR-100 (Pat) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **FL** | FedAvg | 85.74 | 79.37 | 59.47 | 56.49 | 31.55 | 26.29 |
+| | FedProx | 85.70 | 77.31 | 59.59 | 56.27 | 31.77 | 26.44 |
+| **PFL** | Per-FedAvg | 95.80 | 99.34 | 85.05 | 87.41 | 34.49 | 53.71 |
+| | pFedMe | 97.61 | 99.37 | 82.17 | 81.58 | 45.83 | 53.33 |
+| | FedFomo | 97.20 | 99.41 | 88.29 | 90.64 | 44.49 | 63.39 |
+| | FedBABU | 97.32 | 99.40 | 91.03 | 90.71 | 49.71 | 61.84 |
+| | FedProto | 97.05 | 89.28 | 48.73 | 89.43 | 48.73 | 65.27 |
+| | FedAMP | 97.29 | 88.94 | 46.92 | 88.51 | 46.92 | 62.87 |
+| | FedRep | 97.62 | 90.53 | 49.72 | 90.53 | 49.72 | 66.03 |
+| | FedALA | 97.78 | 90.84 | 55.90 | 91.23 | 55.90 | 66.20 |
+| | FedMCA | 97.83 | 91.76 | 59.32 | 91.79 | 59.32 | 72.33 |
+| | **FedLMI (ours)** | **97.86** | **99.63** | **92.19** | **92.65** | **64.37** | **75.45** |
+
 *(More experimental results can be found under the other_experimental_results/ directory and in the paper of this work)*
 
 ---
