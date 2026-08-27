@@ -9,7 +9,7 @@ class DDWAModule:
         self.device = device
 
     def solve_nash_bargaining(self, G: torch.Tensor, max_iter: int = 50, lr: float = 0.01, eps: float = 1e-8) -> torch.Tensor:
-        print(f"DDWA求解: 矩阵形状{G.shape}, 范数{torch.norm(G):.6f}")
+        print(f"shape:{G.shape}, norm:{torch.norm(G):.6f}")
         d, K = G.shape
         if K == 0:
             return torch.ones(1, device=self.device)
@@ -37,7 +37,7 @@ class DDWAModule:
             p_new = p_new / torch.sum(p_new)
 
             p = p_new
-        print(f"DDWA权重范围: [{torch.min(p):.4f}, {torch.max(p):.4f}]")
+        print(f"DDWA weight scope: [{torch.min(p):.4f}, {torch.max(p):.4f}]")
         return p / torch.sum(p)
 
     def compute_deviations(self, global_model: torch.nn.Module, client_models: List[torch.nn.Module]) -> torch.Tensor:
